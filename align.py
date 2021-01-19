@@ -54,4 +54,4 @@ pairs = compare.getHomologs(yeast_S288C_domains, yeast_S288C_domains, verbose=Fa
 compare.alignDomains(yeast_S288C_domains, yeast_S288C_domains, pairs, outdir)
 
 # use this function with verbose = True to write the DNA sequence identity file to alignments/dna_alignments/dna_sequence_ID.dat
-goodPairs = compare.findAcceptableDomainPairs(pairs, outdir, min=min_DNA_ID, max=max_DNA_ID, verbose=True)
+#goodPairs = compare.findAcceptableDomainPairs(pairs, outdir, min=min_DNA_ID, max=max_DNA_ID, verbose=True)
