@@ -10,11 +10,11 @@ alignments.bck.zip  : compressed directory containing sample amino acid and DNA 
 
 pooled_k0_30-80.bck : sample output that results from running the commands in pooled_commands.txt
 
-src                 : contains the python program compare.py that is loaded by align.py and runner.py to perform comparisons; loading it as a module gives you access to various methods for parsing domain information and performing comparisons in different ways
+src                 : contains the Python3 module compare.py that is loaded by align.py and runner.py to perform comparisons
 
-align.py            : python program that runs analysis up to and including AA and DNA alignments between domains but does not run comparisons
+align.py            : Python3 program that runs analysis up to and including AA and DNA alignments between domains but does not run comparisons
 
-runner.py           : python program that runs complete analysis excluding alignments to streamline processing
+runner.py           : Python3 program that runs complete analysis excluding alignments to streamline processing
 
 commands.txt        : commands that can be run to generate the data in pooled_k0_30-80/
 
