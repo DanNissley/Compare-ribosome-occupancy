@@ -8,7 +8,7 @@ either randomly selected pairs of domains or between pairs of evolutionarily rel
 
 """
 import os, sys
-sys.path.append('/data/pegasus/nissley/trans_sched/update_v5/for_github/src')
+sys.path.append('src')
 import compare
 from datetime import datetime
 
